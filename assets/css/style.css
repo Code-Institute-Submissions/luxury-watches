@@ -1,16 +1,31 @@
-html, body {
+html,body {
     margin: 0;
     padding: 0;
+}
+/*--------------------Header------------*/
+.card-body {
+    background-color: lightgray;
+
+/*--------------------Body------------*/
+
+.image-container {
+    height: 100vh;
+    background: url("/assets/images/The-Full-Collection.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    font-style: oblique;
+
 
 }
-
-.background-image {
-    background-image: url('/assets/images/The-Full-Collection.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no repeat;
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-
+/*--------------------footer------------*/
+.card-title {
+     background-color: lightgray;
 }
