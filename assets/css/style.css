@@ -1,7 +1,16 @@
-div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.background-image {
+    background-image: url('/assets/images/The-Full-Collection.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+
 }
