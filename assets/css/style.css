@@ -2,30 +2,18 @@ html,body {
     margin: 0;
     padding: 0;
 }
-/*--------------------Header------------*/
-.card-body {
-    background-color: lightgray;
-
-/*--------------------Body------------*/
-
-.image-container {
+.callout-container {
     height: 100vh;
-    background: url("/assets/images/The-Full-Collection.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
-    color: #ffffff;
-    font-style: oblique;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-
-}
-/*--------------------footer------------*/
-.card-title {
-     background-color: lightgray;
+        position: relative;
 }
