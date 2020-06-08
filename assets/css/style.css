@@ -3,14 +3,26 @@ html,body {
     padding: 0;
 }
 
-.logo {
-    color: blue;
+.navbar-brand a{
     font-style: oblique;
-    text-align: center;
 }
 
+
+.header {
+    top: 0;
+}
+/*----------contact.html------------------------*/
+#contact {
+    background-image: url('/assets/images/Collection-closeup.jpg');
+    color: white;
+    height: 100vh;
+    ;
+}
+
+/*----------Index.html------------------------*>
 /*----------assistance from CI tutorial-------*/
 .callout-container {
+
     height: 100vh;
 
     background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
@@ -22,11 +34,14 @@ html,body {
         display: flex;
         align-items: center;
         justify-content: center;
-
-        position: relative;
-
+        position: relative; 
         color: #ffffff;
+
+        height: 71vh;
 }
 
 /*----------assistance from CI tutorial-------*/
 
+/*----------men.html------------------------*>
+
+/*----------ladies.html------------------------*>
