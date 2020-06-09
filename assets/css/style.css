@@ -1,19 +1,29 @@
 html,body {
     margin: 0;
     padding: 0;
+    font-style: oblique;
 }
 
+@media screen and (max-width: 600px) {
+ p {
+    visibility: hidden;
+ }
 
-.header {
-    top: 0;
+ .mobilehide {
+     padding-top: 
 }
-
+}
 /*----------contact.html------------------------*/
 #contact {
-    background-image: url('/assets/images/Collection-closeup.jpg');
+    background-image: url('/assets/images/Collection-closeup.jpg') ;
     color: white;
     height: 100vh;
     max-width: 100%;
+   
+}
+
+span {
+    color: #ffff;
 }
 
 /*----------Index.html------------------------*/
@@ -30,6 +40,8 @@ html,body {
         -o-background-size: cover;
         background-size: cover;
 
+    
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -39,7 +51,7 @@ html,body {
         height: 71vh;
 }
 
-/*----------code from bootstrap CI tutorial-------*/
+/*code from bootstrap CI tutorial*/
 
 /*----------Men/Ladies Positioning------------------------*/
 
