@@ -16,6 +16,7 @@ html,body {
     background-image: url('/assets/images/Collection-closeup.jpg');
     color: white;
     height: 100vh;
+    max-width: 100%;
     ;
 }
 
@@ -42,6 +43,6 @@ html,body {
 
 /*----------assistance from CI tutorial-------*/
 
-/*----------men.html------------------------*>
+/*----------men.html------------------------*/
 
 /*----------ladies.html------------------------*>
