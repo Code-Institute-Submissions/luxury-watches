@@ -3,25 +3,23 @@ html,body {
     padding: 0;
 }
 
-.navbar-brand a{
-    font-style: oblique;
-}
-
 
 .header {
     top: 0;
 }
+
 /*----------contact.html------------------------*/
 #contact {
     background-image: url('/assets/images/Collection-closeup.jpg');
     color: white;
     height: 100vh;
     max-width: 100%;
-    ;
 }
 
-/*----------Index.html------------------------*>
-/*----------assistance from CI tutorial-------*/
+/*----------Index.html------------------------*/
+
+
+/*code from bootstrap CI tutorial*/
 .callout-container {
 
     height: 100vh;
@@ -41,8 +39,14 @@ html,body {
         height: 71vh;
 }
 
-/*----------assistance from CI tutorial-------*/
+/*----------code from bootstrap CI tutorial-------*/
+
+/*----------Men/Ladies Positioning------------------------*/
+
+.position-column {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /*----------men.html------------------------*/
-
-/*----------ladies.html------------------------*>
+/*----------ladies.html------------------------*/
