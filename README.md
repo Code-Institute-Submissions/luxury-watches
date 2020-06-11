@@ -123,4 +123,5 @@ I would like to achnowledge Matt, the Code Institute tutor. I used his code from
 Youtube blondiebytes for assistance with responsiveness. 
 
 Duration: 00:13 Resolution: 1920 x 1080 Show more Share
-Children Entering Classroom in Nigeria AUTHOR:Videvo 
+Children Entering Classroom in Nigeria 
+https://www.videvo.net/video/children-entering-classroom-in-nigeria/458803/AUTHOR:Videvo 
