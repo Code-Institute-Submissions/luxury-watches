@@ -121,3 +121,6 @@ Acknowledgements:
 I would like to achnowledge Matt, the Code Institute tutor. I used his code from the Bootstarp 4 tutorial to place the background image into the index.html page. 
 
 Youtube blondiebytes for assistance with responsiveness. 
+
+Duration: 00:13 Resolution: 1920 x 1080 Show more Share
+Children Entering Classroom in Nigeria AUTHOR:Videvo 
