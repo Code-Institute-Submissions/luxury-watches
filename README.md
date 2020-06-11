@@ -30,7 +30,7 @@ w3schools
 
 Wireframes:
 
-Powerpoint
+Powerpoint - a simple strucute located in the images tab
 
 Images:
 
@@ -84,5 +84,40 @@ I used a bootstrap card to taylor the footer.
 
 Once the stucutre was completed, well I though it was, I created the other pages of the website. I duplicated the index.html for a Men.html, Ladies.html and conatct.html. 
 
+On the other pages I added the images and a PayPal buy now sandbox buttton. I then added the content to the images. 
+I inserted the location in each h ref to link the pages together. success
+Social media icons with linked added, links defered to another new browser page. 
+Added images to the ladies.html. this commit was incorrectly spelled. 
+I began adding the hero image to the contact.html page, i made some attempt to mobile optimise but as i was testing  I noticed that it functioned better if the hero image was fully displayed on the desktop but only partial on mobile which would not be mobile optimised. It heroed the ladies watches. So i left it as is, not mobile optimsed. 
+
+I placed all the information in one div and added the content. 
+This is where I actially updated the links to target _blank - move to another broswer window when clicked. 
+
+I tested Media query visibilty hidden so that the content does no show on mobile, just the name of the watch and PaPal Buy now button. 
+
 Styling....
 
+Testing
+
+The testing was basically every time a added html, bootstrap or a css style to see how it performed:
+
+1. Broswer. 
+2. Mobile
+    I used Chrome dev tools to check each optimisation. 
+
+I used Validator.w3.org to review the code within the pages for any errors. I had a few that needed resolving before my final push. 
+
+I continuously moved through the website to see how it performed throughout the whole process. 
+
+ Issues:
+
+ I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noties that the bootstrap colums were not working and the footer was moving from the bottom over the the very middle left of the page. Thsi was due to a missing closed div tag. 
+
+Deployment
+
+Credits
+
+Acknowledgements:
+I would like to achnowledge Matt, the Code Institute tutor. I used his code from the Bootstarp 4 tutorial to place the background image into the index.html page. 
+
+Youtube blondiebytes for assistance with responsiveness. 
