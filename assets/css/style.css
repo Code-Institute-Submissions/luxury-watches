@@ -1,13 +1,11 @@
 html,body {
     margin: 0;
     padding: 0;
-    font-style: oblique;
+    font-family: 'Piedra', cursive;
+    
 }
 
-@media screen and (max-width: 600px) {
- p {
-    visibility: hidden;
- }
+
 
  .mobilehide {
      padding-top: 
@@ -58,7 +56,23 @@ span {
 .position-column {
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+
+}
+
+.position{
+    align-content: center;
+}
+
+
+.demo {
+    width: 100vh;
 }
 
 /*----------men.html------------------------*/
 /*----------ladies.html------------------------*/
+
