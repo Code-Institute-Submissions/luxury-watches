@@ -2,25 +2,17 @@ html,body {
     margin: 0;
     padding: 0;
     font-family: 'Piedra', cursive;
-    
-}
+    }
 
+/*men.html/ladies.html*/
 .position{
     margin-top: 100px;
     scroll-margin-bottom: 100px;
     margin-left: 100px;
     }
-.navbar {
-    background-color: black;
-}
 
- .mobilehide {
-     padding-top: 
-}
-}
-/*----------contact.html------------------------*/
+/*contact.html*/
 #contact {
-    background-image: url('/assets/images/Collection-closeup.jpg') ;
     color: white;
     height: 100vh;
     max-width: 100%;
@@ -31,29 +23,23 @@ span {
     color: #ffff;
 }
 
-/*----------Index.html------------------------*/
-
-
+/*Index.html*/
 /*code from bootstrap CI tutorial*/
 .callout-container {
 
-    height: 100vh;
-
-    background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
+         height: 100vh;
+        background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
-    
-
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative; 
         color: #ffffff;
-
         height: 71vh;
+    
 }
 
 /*code from bootstrap CI tutorial*/
@@ -76,12 +62,77 @@ span {
 }
 
 
-.demo {
-    width: 100vh;
+/*----------men.html------------------------*/
+/*Contactus page https://bbbootstrap.com/snippets/contact-us-responsive-form-91369694*/
+
+
+
+    
+.form4 {
+    background-color: rgba(128, 128, 128, 0);
+    background-size: cover;
+
+
+    
 }
 
-/*----------men.html------------------------*/
-/*----------ladies.html------------------------*/
+.top {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.form-bg {
+    background: rgba(68, 68, 65, 0.77);
+    padding: 20px
+}
+
+.form {
+    background-color: white !important;
+    padding: 20px
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.form-control {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #61615e;
+    background: transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+button.btn {
+    display: block;
+    padding: 11px 32px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 30px 0px
+}
+
+.btn-blue {
+    background-color: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4
+}
 
 /*footer*/
 
@@ -101,15 +152,12 @@ span {
     }
   }  
   .about-company{
-    i{font-size: 25px;}
+    {font-size: 25px;}
     a{
       color:white;
       transition: color .2s;
       &:hover{color:#4180CB}
     }
   } 
-  .location{
-    i{font-size: 18px;}
-  }
   .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
