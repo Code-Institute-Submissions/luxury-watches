@@ -23,6 +23,9 @@ span {
     color: #ffff;
 }
 
+.nav-link{
+    color: black;
+}
 /*Index.html*/
 /*code from bootstrap CI tutorial*/
 .callout-container {
@@ -43,6 +46,15 @@ span {
 }
 
 /*code from bootstrap CI tutorial*/
+/*aboutus.html*/
+.charity{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.charity-text {
+    padding-top: 50px;
+}
 
 /*----------Men/Ladies Positioning------------------------*/
 
@@ -66,7 +78,10 @@ span {
 /*Contactus page https://bbbootstrap.com/snippets/contact-us-responsive-form-91369694*/
 
 
-
+.footer{
+    width: 100%;
+    
+}
     
 .form4 {
     background-color: rgba(128, 128, 128, 0);
