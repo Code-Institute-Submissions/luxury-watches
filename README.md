@@ -1,5 +1,7 @@
 # luxury-watches
 
+***Link goes here***
+
 This Website is set up to provide a platform for promoting a brand and selling Luxury watches with an option to receive a payment for each watch. 
 
 Table of Contents:
@@ -30,11 +32,11 @@ w3schools
 
 Wireframes:
 
-Powerpoint - a simple strucute located in the images tab
+Powerpoint - a simple structure located in the images tab
 
 Images:
 
-Instead of using free online images, I tried myhand in photography and photographed some of the watches my wife and I own. I uploaded the images to my Laptop and dragged the images into the images folder. 
+Instead of using free online images, I tried my hand in photography and photographed some of the watches my wife and I own. I uploaded the images to my Laptop and dragged the images into the images folder. 
 
 User Experience/Features:
 
@@ -54,7 +56,7 @@ The conatct us page has the second power image, however, on purpose, its not sup
 
 On moving to Mobile, the model of the watch disapears along with the 'our other platforms below' content in the footer. 
 
-Building to platform:
+Building the platform:
 
 I am using Github and Gitpod to create the server environment to allow the coding of the website. 
 Bootstrap will be used in order to ensure a mobile optimised environment. 
@@ -82,7 +84,7 @@ A header/body/footer was added with help from bootstrap and Code institue tutori
     background-size: cover;
 I used a bootstrap card to taylor the footer. 
 
-Once the stucutre was completed, well I though it was, I created the other pages of the website. I duplicated the index.html for a Men.html, Ladies.html and conatct.html. 
+Once the stucutre was completed, well I thought it was, I created the other pages of the website. I duplicated the index.html for a Men.html, Ladies.html and conatct.html. 
 
 On the other pages I added the images and a PayPal buy now sandbox buttton. I then added the content to the images. 
 I inserted the location in each h ref to link the pages together. success
@@ -93,9 +95,19 @@ I began adding the hero image to the contact.html page, i made some attempt to m
 I placed all the information in one div and added the content. 
 This is where I actially updated the links to target _blank - move to another broswer window when clicked. 
 
-I tested Media query visibilty hidden so that the content does no show on mobile, just the name of the watch and PaPal Buy now button. 
+I tested Media query visibilty hidden so that the content does no show on mobile, just the name of the watch and PaPal Buy now button but decided to not use Media query to hid anything as all information would be needed in mobile.
 
-Styling....
+I collaberated at this point with my tutor and we agreed to bring more life to the website the easiest way possible. 
+
+Google fonts Pidera was added to highlight the text that would catch the eye of the user. 
+
+On the men.html/ladies.html a bootstrap corousel was added with new images. I thought in order to give more life would be to show more of the products in different lights. I took my own photos and sized them to 744x322 before i added them to the files. I had to re-adjust a few times as it did not look right. 
+
+Initially I was going for a plane minimal but decided to give it a little more height and information. I googled bootstrap footer and contact us page and then applied the footer to the website and all pages. 
+
+I centered and updated the headings on each page and the P on index,html to be more attractive. 
+
+I removed the boders around the bootstrap cards on men/html and ladies.html. 
 
 Testing
 
@@ -109,9 +121,9 @@ I used Validator.w3.org to review the code within the pages for any errors. I ha
 
 I continuously moved through the website to see how it performed throughout the whole process. 
 
- Issues:
+Issues:
 
- I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noties that the bootstrap colums were not working and the footer was moving from the bottom over the the very middle left of the page. Thsi was due to a missing closed div tag. 
+I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noties that the bootstrap colums were not working and the footer was moving from the bottom over the the very middle left of the page. Thsi was due to a missing closed div tag. 
 
 Deployment
 
@@ -122,6 +134,3 @@ I would like to achnowledge Matt, the Code Institute tutor. I used his code from
 
 Youtube blondiebytes for assistance with responsiveness. 
 
-Duration: 00:13 Resolution: 1920 x 1080 Show more Share
-Children Entering Classroom in Nigeria 
-https://www.videvo.net/video/children-entering-classroom-in-nigeria/458803/AUTHOR:Videvo 
