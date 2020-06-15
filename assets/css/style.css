@@ -1,15 +1,11 @@
-html,body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Piedra', cursive;
-    }
 
-/*men.html/ladies.html*/
-.position{
-    margin-top: 100px;
-    scroll-margin-bottom: 100px;
-    margin-left: 100px;
-    }
+
+}
+
 
 /*contact.html*/
 #contact {
@@ -23,12 +19,22 @@ span {
     color: #ffff;
 }
 
-.nav-link{
-    color: black;
+/*corousel*/
+.h3-responsive{
+    color:  white;
+
 }
 /*Index.html*/
+
+h2 {
+    text-align: center;
+}
+.indexp{
+    text-align: center;
+}
+
 /*code from bootstrap CI tutorial*/
-.callout-container {
+.backgroundimg-container {
 
          height: 100vh;
         background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
@@ -44,8 +50,8 @@ span {
         height: 71vh;
     
 }
-
 /*code from bootstrap CI tutorial*/
+
 /*aboutus.html*/
 .charity{
     text-align: center;
@@ -56,43 +62,30 @@ span {
     padding-top: 50px;
 }
 
-/*----------Men/Ladies Positioning------------------------*/
+/*Men.html/Ladies/html*/
 
-.position-column {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
+.card {
+        margin: 0 auto;
+        float: none; 
 }
+      
 
 .row {
     text-align: center;
+    align-items: center;
+
 
 }
-
-.position{
-    align-content: center;
-}
-
 
 /*----------men.html------------------------*/
 /*Contactus page https://bbbootstrap.com/snippets/contact-us-responsive-form-91369694*/
-
-
-.footer{
-    width: 100%;
-    
-}
     
 .form4 {
     background-color: rgba(128, 128, 128, 0);
     background-size: cover;
-
-
-    
 }
 
 .top {
-    padding-top: 100px;
     padding-bottom: 100px
 }
 
@@ -154,25 +147,10 @@ button.btn {
 .footer{
   background: rgba(128, 128, 128, 0.121);
   color:black;
-  
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
+  width: 100%;
   }  
-  .about-company{
-    {font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
+.copyright p{
+      
+    border-top:1px solid rgba(255,255,255,.1);
+    text-align: center;
     }
-  } 
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-}
