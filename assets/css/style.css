@@ -63,6 +63,10 @@ h2 {
     padding-top: 50px;
 }
 
+.charity-image {
+    width: 50%;
+}
+
 /*Men.html/Ladies/html*/
 
 .card {
@@ -154,6 +158,10 @@ button.btn {
   color:black;
   width: 100%;
   }  
+
+.remove-bullet-points{
+    list-style: none;
+}
 .copyright p{
       
     border-top:1px solid rgba(255,255,255,.1);
