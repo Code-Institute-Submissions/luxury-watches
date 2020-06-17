@@ -51,6 +51,7 @@ h2 {
         height: 71vh;
     
 }
+
 /*code from bootstrap CI tutorial*/
 
 /*aboutus.html*/
@@ -75,12 +76,20 @@ h2 {
         margin: 0 auto;
         float: none; 
         border: none;
+        
 }
       
-
 .background {
     background-color:lightgray;
     
+}
+.corousel{
+    height: 529px;
+    width: 100vw;
+}
+.heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*----------men.html------------------------*/
@@ -168,6 +177,11 @@ button.btn {
 
 .side-by-side{
      list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+    size: 40px;
 }
 .copyright p{
       
