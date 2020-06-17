@@ -76,12 +76,6 @@ h2 {
 }
       
 
-.row {
-    text-align: center;
-    align-items: center;
-
-
-}
 .background {
     background-color:lightgray;
 }
@@ -92,6 +86,7 @@ h2 {
 .form4 {
     background-color: rgba(128, 128, 128, 0);
     background-size: cover;
+    padding-top: 40px;
 }
 
 .top {
@@ -100,8 +95,10 @@ h2 {
 
 .form-bg {
     background: rgba(68, 68, 65, 0.77);
-    padding: 20px
-}
+    padding: 20px;
+    margin: auto;
+    
+}   
 
 .form {
     background-color: white !important;
