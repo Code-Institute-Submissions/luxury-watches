@@ -154,19 +154,23 @@ I continuously moved through the website to see how it performed throughout the 
 
 I used my last two mentor sessions to as my test sessions. Any feedback provided I updated as it was unbiased.
 
-Test 1 - We looked at every page within detail to ensure that the code worked the way it should have. I have to make some at test 1 all bootstrap was in place. this worked well and I was happy with it.
+Test 1 - We looked at every page within detail to ensure that the code worked the way it should have. The pages had some aligning issues and would not center. My tutor assisted me with the best plan of action in order to allow centering with the use of class's and text align. The coorrect targeting and styling helped complete this process. 
 
-It was time to jazz it up. 
-
-Test 2 - I made significant changes to the body and footer and added a bootstrap corousel and bootstrap footer with some new images. 
+Test 2 - I made significant changes to the body and footer and added a bootstrap corousel and bootstrap footer with some new images. again, i had some aligning issues with the bootstrap cards, contact us forms and spaces between body and footer. 
 
 Test 3 was my own text to see how the website looked, everything seems to be working as it should with no more issues. 
+
+I copy and pasted all code form each page to the ws validator and all passed with no errors, however, This is after I rectified the errors. 
+
+I tried to add validaiton results however I was having issue. I have uploaded the text to https://validator.w3.org and all pages have passed. 
 
 Issues:
 
 I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noties that the bootstrap colums were not working and the footer was moving from the bottom over the the very middle left of the page. Thsi was due to a missing closed div tag. 
 
-After the second mentor session, aftert adding the carousel and new footer i noticed that there was spacing between the body and the footer, i made several attmepts to remove the spacing, however, in the end i received assitance from my mentor. I aldo had issue centering the cntact us form, if I used CSS then it woul dnot be mobile optimised. in the end, my mentor pointed out that I needed to update bootstrap code to center it. 
+After the second mentor session, aftert adding the carousel and new footer i noticed that there was spacing between the body and the footer, i made several attmepts to remove the spacing, however, in the end I received assitance from my mentor. I aldo had issue centering the contact us form, if I used CSS then it would not be mobile optimised. in the end, my mentor pointed out that I needed to update bootstrap code to center it. I centered the form on contact.html by updating a div col to col-md-6 and also provide more spacing between products in Men.html and ladies.html by changing the PT-3 to PT-5. 
+
+Other issues I had was the image resolution. I tried to re-sixr them before re-adding them back to the images folder, it worked for some and not for others, the ones it did not work for I sized them in css. 
 
 Deployment
 
@@ -176,4 +180,3 @@ Acknowledgements:
 I would like to achnowledge Matt, the Code Institute tutor. I used his code from the Bootstarp 4 tutorial to place the background image into the index.html page. 
 
 Youtube blondiebytes for assistance with responsiveness. 
-
