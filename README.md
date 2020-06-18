@@ -18,7 +18,7 @@ Table of Contents:
     Credits
     Acknowledgements
 
-Technologies Used
+Technologies Used:
 
 Github
 I used GitHub to create a repository that allowed me to store my files. 
@@ -106,7 +106,7 @@ Each page is mobile with the use of the bootstrap frame work, again, for easy us
 
 Building the platform:
 
-This website is built with HTML, a bootstrap framework with CSS styling. Java for the hamburger Menu. 
+This website is built with HTML, a bootstrap framework with CSS styling. Java for the hamburger Menu. Mainly Bootstrap. 
 
 I am using Github and Gitpod to create the server environment to allow the coding of the website. 
 Bootstrap will be used in order to ensure a mobile optimized environment. 
@@ -166,7 +166,7 @@ Looking at the images on ladies.html, the top two were too small, I resized top 
 
 I styles the footer to ensure the social media links were side by side with inline block value. 
 
-Testing
+Testing:
 
 I continuously moved through the website to see how it performed throughout the whole process.
 The testing was basically every time a added html, bootstrap or a css style to see how it performed:
@@ -205,6 +205,9 @@ After the second mentor session, after adding the carousel and new footer i noti
 
 Other issues I had was the image resolution. I tried to re-size them before re-adding them back to the images folder, it worked for some and not for others, the ones it did not work for I sized them in css. 
 
+Major issue, 
+
+Just after I deployed it, the home page would not show the background image, I removed it and placed a carousel which I though looks better and is showing on published site. 
 Deployment:
 I came to the stage where I was now fully 100% happy with the website. I went to the Github respository and clicked on settings, from there, I went to GitHib Pages to send it out hosted and selected Master Branch. The site was then deployed and published. 
 
@@ -214,6 +217,6 @@ stack overflow
 Youtube blondiebytes/mmtuts for assistance with responsiveness.
 
 Acknowledgements:
-I would like to acknowledge Matt, the Code Institute tutor. I used his code from the Bootstrap 4 tutorial to place the background image into the index.html page. 
+I would like to acknowledge Matt, the Code Institute tutor. I used his code from the Bootstrap 4 tutorial to place the background image into the index.html page, however, i have since removed this feature. 
 
 photo in aboutus.html https://unsplash.com/photos/vTA2Het76y8 = tim-mossholder
