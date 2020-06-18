@@ -34,21 +34,10 @@ h2 {
     text-align: center;
 }
 
-/*code from bootstrap CI tutorial*/
-.backgroundimg-container {
+.The-Full-Collection {
 
          height: 100vh;
-        background: url('/assets/images/The-Full-Collection.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative; 
-        color: #ffffff;
-        height: 71vh;
+         width:  1266px; 
     
 }
 
@@ -90,6 +79,7 @@ h2 {
 .heading {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: lightgrey;
 }
 
 /*----------men.html------------------------*/
