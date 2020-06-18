@@ -1,6 +1,6 @@
 # luxury-watches
 
-***Link goes here***
+https://pshumgti.github.io/luxury-watches/
 
 This Website is set up to provide a platform for promoting a brand and selling Luxury watches with an option to receive a payment for each watch. 
 
@@ -21,15 +21,37 @@ Table of Contents:
 Technologies Used
 
 Github
-Gitpod
-CSS3
-HTML5
-Bootstrap 4
-Javascript
-PayPal
-Powerpoint
-Font Awesome
+I used GitHub to create a repository that allowed me to store my files. 
 
+Gitpod
+I linked my Github account to Gitpod which allowed me to create the files and locally check my code throgh every stage. 
+
+CSS3
+Css helped me style my bootstrap framework. 
+
+HTML5
+Used to structure every html file.
+
+Bootstrap 4
+I mostly used Bootstrap as the frame work of the site. 
+
+JQuery
+I only used Java in the hamburger menu on the nav bar. 
+
+PayPal
+I used PayPal sandbox to create buy now buttons
+
+Powerpoint
+I used Power Point to mock up my ideas. 
+
+Font Awesome
+I used Font-Awesome to create my social media links
+
+w3 schools
+I utilized w3 schools in order to gain access to a lot of very useful examples of code. 
+
+Google fonts
+I chose Pidera because It looked rugged as well as elegant for this type of site. 
 
 Wireframes:
 
@@ -59,7 +81,7 @@ On moving to Mobile, the model of the watch disappears along with the 'our other
 
 The Actual User Experience/Features:
 
-Logging into the website you are met with a nav bar (light grey) with the logo right-aligned that acts as the Home button also. The right hand side of the nav bar has mens, ladies and about us sections. The nav bar is mobile optimized which turns into a hamburger menu and when dropped down it shows Men, Ladies and about us. 
+Logging into the website you are met with a nav bar (light grey) with the logo right-aligned that acts as the Home button also. The right hand side of the nav bar has men's, ladies and about us sections. The nav bar is mobile optimized which turns into a hamburger menu and when dropped down it shows Men, Ladies and about us. 
 This nav bar is the same for all 5 pages. 
 
 The hero image is displayed in the background and underneath that is the brand name inviting customers to browse the latest watches. 
@@ -146,37 +168,45 @@ I styles the footer to ensure the social media links were side by side with inli
 
 Testing
 
+I continuously moved through the website to see how it performed throughout the whole process.
 The testing was basically every time a added html, bootstrap or a css style to see how it performed:
 
 1. Browser. 
 2. Mobile
     I used Chrome dev tools to check each optimization. 
 
-I used Validator.w3.org to review the code within the pages for any errors. I had a few that needed resolving before my final push. 
+The first thing I initially tested was folders and files. I created the assets folder and index file and linked the style sheet to the index file and save this. I then began to test a style in the css using a HTML class and checked it locally in a browser.
+GitPod allows you to make the files public along with opening the files in browser to see how everything responds. 
+The tests here responded nicely after I linked the pages together using the link tag. 
+I add bootstrap and also tested if it would respond in the broswer. it was a success. so now that everything worked as it should i decided to move on. 
 
-I continuously moved through the website to see how it performed throughout the whole process. 
+After testing HTML and css only in another repository i decided to use bootstraps framework as it was the use of code that would allow alot with simple styling. I reviewed w3schoold and tested the navbar in the browser and i liked the way it responded so I embedded it and slightly changed the background color etc. I tested font style oblique, it was more of an italic look so later changed from oblique to FontAwesome Pidera. Along with the bootstrap nav back comes mobile hamburger with i tested in dev tools and my phone 7 and it responded how it should have. 
 
-I used my last two mentor sessions to as my test sessions. Any feedback provided I updated as it was unbiased.
+The carousel is also bootstrap frame work, pasted into men.html and ladies.html. I saw how it responded but i had some trouble getting the images right. I managed to size them correctly however closer to the end I decided to use new photos, same images, and style them using css which looked way better and clearer as they looked stretched. The body on both pages (men.html/ladies.html) have bootstrap card with images in side and a PayPal button. Placing the image in side was not an issue but the styling was part issue. again, this was more of the frame BS frame work code that had to be amended, I provide more spacing between products in Men.html and ladies.html by changing a BS class from PT-3 to PT-5. In the ladies.html, i had an issue with the top two images, too much padding on bottom. Tried everything and went as far as resizing before adding photo to files so i just played around with the height and VW until i got the right fit. 
 
-Test 1 - We looked at every page within detail to ensure that the code worked the way it should have. The pages had some aligning issues and would not center. My tutor assisted me with the best plan of action in order to allow centering with the use of class's and text align. The correct targeting and styling helped complete this process. 
 
-Test 2 - I made significant changes to the body and footer and added a bootstrap carousel and bootstrap footer with some new images. again, i had some aligning issues with the bootstrap cards, contact us forms and spaces between body and footer. 
+The body in the index.html page is code from Code Institute as I liked the way it looked in the tutorial and tis was my first time using bootstrap so it only made sense to test and ultimately used what i knew, at that time. I had text heading text on the photo but later moved that off the photo. it took me a while to understand it and in the end, the photo was fixed and the scrolling up and down allowed you to see different points of the photo. i have thought of removing it, maybe i will int he future, bbut i am leaving it for now. 
 
-Test 3 was my own text to see how the website looked, everything seems to be working as it should with no more issues. 
+The contact us page again, bootstrap framework, It was plane without styling, I had issue centering it, with the help pf my mentor we managed to get it aligned center and add headings etc to make it look the part. 
 
-I copy and pasted all code form each page to the W3 validator and all passed with no errors, however, This is after I rectified the errors. 
+The about us page has a free stock photo and text. I added the photo and it took up way too much of the page and more, there was a scrolling bar made on the left and the bottom it was so big. i tried making the width 50% and this seemed to work. I tested it on mobile and it centered which is exactly what I was looking for. sometimes when I tried to use CSS to center, half of photo was missing on mobile. 
+
+I used Validator.w3.org to review the code within the pages for any errors. I had a few that needed resolving before my final push.  
+ 
+I then passed the code through he validator again and all was passed.  
 
 I tried to add validation results however I was having issue. I have uploaded the text to https://validator.w3.org and all pages have passed. 
 
 Issues:
 
-I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noticed that the bootstrap colums were not working and the footer was moving from the bottom over the the very middle left of the page. This was due to a missing closed div tag. 
+I noticed a few issues when adding codes and this was all a result of missing code. For example, I was positioning the images in Men.html and Ladies.html and noticed that the bootstrap columns were not working and the footer was moving from the bottom over the the very middle left of the page. This was due to a missing closed div tag. 
 
 After the second mentor session, after adding the carousel and new footer i noticed that there was spacing between the body and the footer, i made several attempts to remove the spacing, however, in the end I received assistance from my mentor. I also had issue centering the contact us form, if I used CSS then it would not be mobile optimized. in the end, my mentor pointed out that I needed to update bootstrap code to center it. I centered the form on contact.html by updating a div col to col-md-6 and also provide more spacing between products in Men.html and ladies.html by changing the PT-3 to PT-5. 
 
 Other issues I had was the image resolution. I tried to re-size them before re-adding them back to the images folder, it worked for some and not for others, the ones it did not work for I sized them in css. 
 
-Deployment
+Deployment:
+I came to the stage where I was now fully 100% happy with the website. I went to the Github respository and clicked on settings, from there, I went to GitHib Pages to send it out hosted and selected Master Branch. The site was then deployed and published. 
 
 Credits:
 ws schools
